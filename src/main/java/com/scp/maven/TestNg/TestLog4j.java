@@ -12,7 +12,7 @@ public class TestLog4j {
 	
 	public static void main(String[] args) throws InterruptedException,SQLException {
 		
-		logger.setLevel(Level.ALL);
+		logger.setLevel(Level.INFO);
 		
 		for(int i=0;i<=10;i++){
 		logger.fatal("This is fatal msg");
