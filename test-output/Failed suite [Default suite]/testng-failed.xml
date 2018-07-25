@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.scp.my.report.Retry"/>
+      <class name="com.scp.maven.TestNg.App"/>
+      <class name="com.scp.TestTestng.DTest"/>
+      <class name="com.scp.my.report.AppTestReportGenerator"/>
+      <class name="com.scp.TestTestng.CTest"/>
+      <class name="com.scp.maven.TestNg.TestLog4j"/>
+      <class name="com.scp.maven.TestNg.ATest"/>
+      <class name="com.scp.my.report.GenerateTestPieChart"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.scp.maven.TestNg.ATest">
+        <methods>
+          <include name="m1"/>
+          <include name="m2"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- com.scp.maven.TestNg.ATest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.scp.maven.TestNg.ATest">
+        <methods>
+          <include name="m1"/>
+          <include name="m2"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- com.scp.maven.TestNg.ATest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+  <test name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.scp.maven.TestNg.ATest">
+        <methods>
+          <include name="m1"/>
+          <include name="m2"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- com.scp.maven.TestNg.ATest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
